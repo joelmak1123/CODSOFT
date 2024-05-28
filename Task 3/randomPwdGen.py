@@ -13,7 +13,7 @@ def main():
     print("------ Password Generator ------")
     try:
         len = int(input("Enter The Length of Password: "))
-        useSpChar = input("To Get Strong Password Enter 'Y' ").upper()=='Y'
+        useSpChar = input("To Get Strong Password Enter 'Y' ").upper()=='Y'   # Type Y/y to get stronger password
         if len <= 0:
             print("Length of the Password must be Positive!!")
         else:
